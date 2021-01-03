@@ -1,6 +1,6 @@
 import './App.css';
 import Parent from './Parent'
-import { useReducer, useState } from 'react';
+import { useState } from 'react';
 import ValueContext from './ValueContext';
 
 function App() {
