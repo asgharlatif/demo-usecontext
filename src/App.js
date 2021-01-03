@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Parent from './Parent'
-import { useState } from 'react';
+import { useReducer, useState } from 'react';
 import ValueContext from './ValueContext';
 
 function App() {

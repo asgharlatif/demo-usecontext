@@ -6,16 +6,12 @@ function Child() {
 
   let value = useContext(ValueContext);
   console.log("value ", value)
-  
   let updateValue = value[1];
-
-  
-
 
   return (
     <div>
-        Child {value[0]}
-        <button onClick ={()=>{updateValue(++value[0])}}>Update Value</button>
+        Child - This Value is coming using useContext {value[0]}
+        <button onClick ={()=>{updateValue(++value[0])}}>Update useContext Value</button>
     </div>
   );
 }
