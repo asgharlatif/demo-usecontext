@@ -9,6 +9,9 @@ function Child() {
   
   let updateValue = value[1];
 
+  
+
+
   return (
     <div>
         Child {value[0]}
